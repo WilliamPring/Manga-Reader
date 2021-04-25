@@ -1,0 +1,23 @@
+{
+  "name": "Mobile",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react-native": "*",
+    "react": "*",
+    "@testing-library/react-native": "*",
+    "@testing-library/jest-native": "*",
+    "react-bootstrap": "*",
+    "bootstrap": "*",
+    "uniqid": "*",
+    "@react-navigation/stack": "*",
+    "@react-navigation/native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-screens": "*",
+    "react-native-safe-area-context": "*",
+    "@react-navigation/bottom-tabs": "*",
+    "@expo/vector-icons": "*",
+    "react-native-vector-icons": "*",
+    "lodash": "*"
+  }
+}

@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@manga-reader/models": ["libs/models/src/index.ts"],
+      "@manga-reader/dtos": ["libs/dtos/src/index.ts"],
+      "@manga-reader/components": ["libs/components/src/index.ts"],
+      "@manga-reader/react-context": ["libs/react-context/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
