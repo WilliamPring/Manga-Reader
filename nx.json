@@ -16,6 +16,7 @@
     "models": { "tags": [] },
     "dtos": { "tags": [] },
     "components": { "tags": [] },
-    "react-context": { "tags": [] }
+    "react-context": { "tags": [] },
+    "props": { "tags": [] }
   }
 }

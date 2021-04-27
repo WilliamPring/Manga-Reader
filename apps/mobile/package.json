@@ -16,7 +16,6 @@
     "react-native-screens": "*",
     "react-native-safe-area-context": "*",
     "@react-navigation/bottom-tabs": "*",
-    "@expo/vector-icons": "*",
     "react-native-vector-icons": "*",
     "lodash": "*"
   }

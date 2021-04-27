@@ -1,4 +1,4 @@
-import React, { FC, useState, Dispatch, SetStateAction } from 'react';
+import React, { FC, Dispatch, SetStateAction } from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 interface ITopBarProps {

@@ -5,5 +5,6 @@ module.exports = {
     '<rootDir>/libs/dtos',
     '<rootDir>/libs/components',
     '<rootDir>/libs/react-context',
+    '<rootDir>/libs/props',
   ],
 };

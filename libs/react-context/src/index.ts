@@ -1,1 +1,1 @@
-export * from './lib/react-context.module';
+export * from './favorite-manga'

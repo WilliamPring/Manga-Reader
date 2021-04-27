@@ -180,6 +180,31 @@
           }
         }
       }
+    },
+    "props": {
+      "root": "libs/props",
+      "sourceRoot": "libs/props/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/props/**/*.ts"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/props"
+          ],
+          "options": {
+            "jestConfig": "libs/props/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "defaultProject": "mobile"

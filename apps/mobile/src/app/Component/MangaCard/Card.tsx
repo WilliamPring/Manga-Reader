@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { View, Image, Text, StyleSheet } from 'react-native';
-import { MangaCardProps } from '@manga-reader/dtos';
+import { MangaCardProps } from '@manga-reader/props';
 export const Card: FC<MangaCardProps> = ({
   title,
   imageUrl,

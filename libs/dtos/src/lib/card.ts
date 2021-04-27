@@ -1,40 +1,10 @@
-import { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
-import { RouteProp } from '@react-navigation/native';
-type RootStackParamList = {
-  Home: { numColumns: number; mangas: Array<Manga>; };
-};
 
-type HomeScreenNavigationProp = BottomTabNavigationProp<
-  RootStackParamList,
-  'Home'
->;
-type HomeScreenRouteProp = RouteProp<RootStackParamList, 'Home'>;
+export interface UserFavoriteMangaResponseDto {
+  userName: string;
+  favoriteManga: MangaDto[];
+}
 
-
-export type MangaCollectionProps = {
-  navigation: HomeScreenNavigationProp;
-  route: HomeScreenRouteProp;
-  mangas: Array<Manga>;
-  numColumns?: number;
-};
-export interface MangaCardProps {
-  title: string;
-  imageUrl: string;
-  author: string;
-  className?: string;
-  id?: string;
-};
-export interface MangaCardState {
-  title: string;
-  imageUrl: string;
-  author: string;
-  className?: string;
-  id?: string;
-};
-
-
-
-export interface Manga {
+export interface MangaDto {
   id: number;
   imageUrl: string;
   title: string;
